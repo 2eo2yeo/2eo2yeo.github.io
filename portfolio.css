@@ -1,0 +1,347 @@
+
+    /* 상단 메뉴/로고 */
+    .mainwrap {
+        background-color: rgb(233, 228, 199);
+        width: 100%;
+        height: 600px;
+    }
+    
+    .menulogo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+    }
+
+    .logo p {
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(214, 174, 211);
+    }
+
+    .menu ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .menu ul li {
+        padding: 15px;
+        background-color: rgb(214, 174, 211);
+        position: relative;
+        right: 10px;
+        margin: 3px;
+        border-radius: 15px;
+        font-weight: 600;
+    }
+    .menu ul li:hover {
+        padding: 15px;
+        border: 1px solid #02573a;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: white;;
+    }
+
+
+    /* 헤더 소개 */
+
+    .introduce {
+        margin-top: 30px;
+        text-align: center;
+        padding: 0;
+    }
+    .introduce img {
+        width: 200px;
+        height: 200px;        
+        border: 5px solid rgb(214, 174, 211) ;
+        border-radius: 50%;
+    }
+
+    .introduce p:first-child,
+    .introduce p:nth-child(2) {
+        color: #02573a;
+        font-size: 2em;
+        font-weight: 800;
+        padding: 0;
+        margin: 0;
+    }
+    .introduce p:nth-child(3)
+    {
+        color: #02573a;
+        font-size: 18px;
+    }
+
+    .introduce div > div {
+        color: white;
+        padding: 8px;
+        width: 130px;
+        border-radius: 30px;
+        background-color: rgb(214, 174, 211) ;
+        margin: 0 auto;
+    }
+
+/* 어바웃미 */
+
+    .aboutme-text {
+        text-align: center;
+        color: #02573a;
+    } 
+
+    .aboutme-text p:first-child {
+        font-size: 30px; 
+        font-weight: bold;
+        margin-top: 30px ;
+        margin-bottom: 20px;
+    }
+
+    .aboutme-text p:last-child {
+        margin: 0 auto ;
+        width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .aboutme-block {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .aboutme-block div {
+        width: 280px;
+        height: 230px;
+        margin: 10px;
+        background-color: rgb(214, 174, 211);
+        border-radius: 15%;
+        box-shadow: 5px 5px 3px rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
+
+    .aboutme-block div i {
+        /* border: 1px solid red; */
+        font-size: 70px;
+        margin-top: 25px;
+    }
+
+
+    .aboutme-block > div > p:first-of-type {
+        /* border: 1px solid red; */
+        margin: 10px 0 0 0;
+        font-size: 28px;
+    }
+    .aboutme-block > div > p:nth-of-type(2){
+        margin-top: 10px;
+        /* border: 1px solid blue; */
+        text-align: center;
+    }
+
+    .aboutme-co {
+        width: 900px;
+        margin: 30px auto;
+    
+    }
+
+    .aboutme-co > div {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .aboutme-co > div p {
+        margin-left: 10px; 
+        font-size: 12px;
+        color: #02573a;
+    }
+
+
+
+    /* my skill */
+
+    .skills-attribute {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills {
+        padding: 50px 15px 70px 15px;
+        margin: 30px auto 0 auto;
+        /* display: flex; */
+        width: 950px;
+        height: auto;
+        /* border: 1px solid red; */
+        background-color: #043d2a;;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-p {
+        color: white;
+        text-align: center;
+    }
+
+
+    .skills-p p:first-child {
+        font-size: 30px;
+        font-weight: 550;
+        margin: 0;
+    }
+
+    .skills-p p:nth-child(2) {
+        font-size: 19px;
+        margin: 15px 0 0 0;
+
+    }
+
+    .skills-p p:nth-child(3) {
+        font-size: 14px;
+        margin: 0 0 30px 0;
+    }
+
+
+    .skillbar {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 450px;
+        height: 320px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 20px; 
+    }
+
+    h3 {
+        color:white;
+        padding-bottom: 10px;
+        border-bottom: white 2px solid;
+    }
+    
+    .title {
+      /* font-weight: bold; */
+    font-size: 14px;
+    color:  white;
+    }
+    
+    .bar {
+        width: 90%;
+        height: 20px;
+        background: #fff;
+        border-radius: 5px;
+        position: relative;
+        transition: all 2s linear;
+    }
+    
+    .bar-1,
+    .my-skills {
+        width: 80%;
+        margin: 10px auto 15px;
+    }
+    
+    .bar-inner {
+        width: 0;
+        height: 35px;
+        line-height: 35px;
+        background: #db3a34;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .bar-percent {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-size: 13px;
+    
+    }
+
+    .skills-tools {
+        background-color: rgba(214, 174, 211,0.7);
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .skills-tools p,
+    .skills-etc p 
+        {
+        padding: 0;
+        margin: 0;
+        color: lightgray;
+        align-items: center;
+        line-height: normal; 
+
+    }
+
+
+    .skills-tools p:first-child,
+    .skills-etc p:first-child 
+    {   
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 7px;
+        color: white;
+        border-bottom: solid white 2px;
+    }
+    
+
+
+    .skills-etc {
+        background-color: rgba(233, 228, 199,0.7);
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+
+    /* my work */
+
+
+    .mywork {
+        padding: 70px 15px 70px 15px;
+        margin:  0 auto;
+        /* display: flex; */
+        width: 950px;
+        height: auto;
+        /* border: 1px solid red; */
+        background-color: #424240;;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .mywork-p p {
+        text-align: center;
+        color: white;
+        margin: 10px;
+    }
+    .mywork-p p:first-child {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .mywork-porjectmenu {
+        display: flex;
+        list-style-type: none;
+    }
+    .mywork-porject {
+        display: flex;
+        list-style-type: none;
+    }
