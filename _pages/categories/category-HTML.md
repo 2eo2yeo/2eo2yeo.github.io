@@ -1,9 +1,9 @@
 ---
 title: "HTML"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/html/
 author_profile: true
-taxonomy: Categories1
+taxonomy: html
 sidebar:
   nav: "categories"
 ---
