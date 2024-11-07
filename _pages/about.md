@@ -1,8 +1,8 @@
 ---
-title: "공부하는 것을 기록합니다"
+title: "hi!"
 permalink: /about/
 layout: single
 comments: false
 ---
 
-본인 소개 여기에 입력
+공부하는 것을 기록합니당
