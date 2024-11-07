@@ -9,8 +9,8 @@ main:
   - title: "GitHub"
     url: https://github.com/2eo2yeo
 
-  # - title: "Projects"
-  #   url: /projects/
+  - title: "Projects"
+    url: /projects/
 
   - title: "Categories"
     url: /categories/
@@ -21,7 +21,7 @@ categories:
   - title: "HTML"
     url: /categories/categories1/
   - title: "CSS"
-    url: /categories/categories2/
+    url: /categories/css/
   - title: "Javascript"
     url: /categories/categories3/
   - title: "React"
