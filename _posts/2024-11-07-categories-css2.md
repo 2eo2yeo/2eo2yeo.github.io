@@ -3,7 +3,7 @@ title: "[CSS] (Cascade Style Sheet) 기초 문법"
 excerpt: "CSS 0단계"
 
 categories:
-  - categories2
+  - css
 tags:
   - [css]
 
