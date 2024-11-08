@@ -1,6 +1,6 @@
 ---
-title: "[CSS] (Cascade Style Sheet) 문법"
-excerpt: "style로 색상을 표현하는 방법"
+title: "[CSS] 선택자(Selector)"
+excerpt: "CSS 선택자에 대해 알아보자 "
 
 categories:
   - CSS
