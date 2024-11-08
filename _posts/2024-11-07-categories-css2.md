@@ -1,9 +1,9 @@
 ---
-title: "[CSS] (Cascade Style Sheet) 문법"
-excerpt: "알아야 할 CSS 기초"
+title: "[CSS] (Cascade Style Sheet) 기초 문법"
+excerpt: "CSS 0단계"
 
 categories:
-  - CSS
+  - categories2
 tags:
   - [css]
 
