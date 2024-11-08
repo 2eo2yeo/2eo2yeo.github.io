@@ -7,7 +7,7 @@ categories:
 tags:
   - [css]
 
-permalink: /css/1
+permalink: /categories/css/1
 
 toc: true
 toc_sticky: true
