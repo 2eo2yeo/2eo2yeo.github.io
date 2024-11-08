@@ -7,13 +7,13 @@ categories:
 tags:
   - [css]
 
-permalink: /categories2/css1/
+permalink: /css/1
 
 toc: true
 toc_sticky: true
 
-date: 2024-11-07
-last_modified_at: 2024-11-07
+date: 2024-11-08
+last_modified_at: 2024-11-08
 ---
 
 ## 🦥 본문
