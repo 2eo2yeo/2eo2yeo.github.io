@@ -3,7 +3,7 @@ title: "[CSS] 색상"
 excerpt: "style로 색상을 표현하는 방법"
 
 categories:
-  - Categories2
+  - CSS
 tags:
   - [css]
 
