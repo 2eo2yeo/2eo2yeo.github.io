@@ -3,11 +3,11 @@ title: "[CSS] 선택자(Selector)"
 excerpt: "CSS 선택자에 대해 알아보자 "
 
 categories:
-  - CSS
+  - css
 tags:
   - [css]
 
-permalink: /css/4
+permalink: /categories/css/4
 
 toc: true
 toc_sticky: true
