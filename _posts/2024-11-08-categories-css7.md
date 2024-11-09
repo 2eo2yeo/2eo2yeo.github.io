@@ -34,6 +34,10 @@ body {
     - 위 코드에서, 브라우저는 먼저 'Helvetica'를 적용하려 시도하고, 없으면 'Arial'을 사용하며, 두 글꼴 모두 없을 경우 os 기반 기본폰트인 sans-serif 글꼴을 사용한다.
 - 폰트명이 영어가 아니거나, 공백(스페이스)이 있을 경우 폰트명에 ‘따옴표’ 로 감싸준다.
 
+
+
+
+
 ### 2. **font-size**: 글꼴 크기 설정
 
 - `font-size`는 텍스트의 크기를 지정합니다. px, em, rem, % 등의 단위를 사용할 수 있으며, 상황에 따라 적절한 단위를 선택해야 한다.
@@ -41,6 +45,10 @@ body {
 ```css
 p {font-size: 16px; /* 픽셀 단위 */}
 ```
+
+
+
+
 
 ### 3. **font-weight**: 글꼴 두께 설정
 
@@ -53,6 +61,10 @@ p {font-weight: 300; /* 얇게 */}
 
 ```
 
+
+
+
+
 ### 4. **font-style**: 글꼴 스타일 설정
 
 `font-style` 속성은 글꼴의 기울임꼴(이탤릭체) 여부를 설정합니다. 보통 **normal**, **italic**, **oblique**의 세 가지 값을 사용할 수 있습니다.
@@ -61,7 +73,11 @@ p {font-weight: 300; /* 얇게 */}
 em {font-style: italic; /* 이탤릭체 적용 */}
 ```
 
-`italic`은 글꼴에서 제공하는 기울임꼴을 사용하고, `oblique`는 글꼴을 강제로 기울이는 차이가 있습니다
+- `italic`은 글꼴에서 제공하는 기울임꼴을 사용하고, `oblique`는 글꼴을 강제로 기울이는 차이가 있습니다
+
+
+
+
 
 ### 5. **text-align**: 텍스트 정렬
 
@@ -72,6 +88,10 @@ em {font-style: italic; /* 이탤릭체 적용 */}
 ```css
 h2 { text-align: center; /* 중앙 정렬 */}
 ```
+
+
+
+
 
 ### 6. text-decoration  글자 장식
 
@@ -93,6 +113,10 @@ a {text-decoration: underline; /* 밑줄 */ }
 del {text-decoration: line-through; /* 취소선 */}
 ```
 
+
+
+
+
 ### 7. word-spacing, letter0-spacing 글자 간격 띄우기
 
 - letter-spacing(글자 한글자 한글자 사이의 간격 지정), word-spacing(단어와 단어사이 간격을 지정)이 가능하다.
@@ -100,6 +124,10 @@ del {text-decoration: line-through; /* 취소선 */}
 ```css
 h1 {word-spacing: 10px;} /* 단어와 단어사이 띄우기 */
 ```
+
+
+
+
 
 ### 8. Text-trasnsform 글자 변형
 
@@ -118,10 +146,18 @@ h1 {word-spacing: 10px;} /* 단어와 단어사이 띄우기 */
   .capitalize {text-transform: capitalize;}   /* 첫글자만 대문자 */ 
 ```
 
+
+
+
+
 ### 9. text-indent 글자 들여쓰기
 
 - 양수 값 입력 : 들여쓰기 / 음수 값 입력 : 내어쓰기
 - 블록 요소에서 제대로 작동된다.
+
+
+
+
 
 ### 10. Line-height
 
