@@ -31,6 +31,7 @@ last_modified_at: 2024-11-09
 사용예시
 
 ```css
+<style>
 @font-face {
   font-family: '나눔고딕'; /* 사용할 글꼴 이름을 지정 */
   src: url('fonts/CustomFont.woff2') format('woff2'), /* 글꼴 파일 경로 및 형식 */
@@ -42,7 +43,7 @@ last_modified_at: 2024-11-09
 body {
   font-family: 'CustomFont', sans-serif;
 }
-
+</style>
 ```
 <br>
 <br>

@@ -25,9 +25,10 @@ last_modified_at: 2024-11-09
 `font-family`는 텍스트에 적용할 글꼴을 지정하는 속성입니다. 하나 이상의 글꼴을 나열하여 지정할 수 있으며, 만약 첫 번째 글꼴이 사용자 시스템에 없으면 다음 글꼴로 넘어갑니다. 
 <br>
 ```css
-body {
-  font-family: 'Helvetica', 'Arial', sans-serif;}
-
+<style>
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;}
+</style>
 ```
 - 차례대로 우선순위가 높은 폰트를 나열하여 지정한다.
     - 위 코드에서, 브라우저는 먼저 'Helvetica'를 적용하려 시도하고, 없으면 'Arial'을 사용하며, 두 글꼴 모두 없을 경우 os 기반 기본폰트인 sans-serif 글꼴을 사용한다.
@@ -42,7 +43,9 @@ body {
 - `font-size`는 텍스트의 크기를 지정합니다. px, em, rem, % 등의 단위를 사용할 수 있으며, 상황에 따라 적절한 단위를 선택해야 한다.
 
 ```css
-p {font-size: 16px; /* 픽셀 단위 */}
+<style>
+  p {font-size: 16px; /* 픽셀 단위 */}
+</style>
 ```
 <br>
 <br>
@@ -53,9 +56,10 @@ p {font-size: 16px; /* 픽셀 단위 */}
 `font-weight`는 글꼴의 두께를 설정하는 속성입니다. 일반적으로 **normal**과 **bold**로 두께를 구분하지만, 숫자를 넣어 조정이 가능하다.
 
 ```css
-h1 {font-weight: bold; /* 굵게 */}
-
-p {font-weight: 300; /* 얇게 */}
+<style>
+  h1 {font-weight: bold; /* 굵게 */}
+  p {font-weight: 300; /* 얇게 */}
+</style>
 
 ```
 <br>
@@ -67,7 +71,9 @@ p {font-weight: 300; /* 얇게 */}
 `font-style` 속성은 글꼴의 기울임꼴(이탤릭체) 여부를 설정합니다. 보통 **normal**, **italic**, **oblique**의 세 가지 값을 사용할 수 있습니다.
 
 ```css
-em {font-style: italic; /* 이탤릭체 적용 */}
+<style>
+  em {font-style: italic; /* 이탤릭체 적용 */}
+</style>
 ```
 
 - `italic`은 글꼴에서 제공하는 기울임꼴을 사용하고, `oblique`는 글꼴을 강제로 기울이는 차이가 있습니다
@@ -83,7 +89,9 @@ em {font-style: italic; /* 이탤릭체 적용 */}
 - inline 속성을 가진 태그는 text-align이 적용 되지 않는다.
 
 ```css
-h2 { text-align: center; /* 중앙 정렬 */}
+<style>
+  h2 { text-align: center; /* 중앙 정렬 */}
+</style>
 ```
 <br>
 <br>
@@ -101,9 +109,10 @@ h2 { text-align: center; /* 중앙 정렬 */}
 | text-decoration-line    | `underline`(밑줄), `overline`(윗줄), `line-through`(가로줄) 등 설정 |
 
 ```css
-a {text-decoration: underline; /* 밑줄 */ }
-
-del {text-decoration: line-through; /* 취소선 */}
+<style>
+  a {text-decoration: underline; /* 밑줄 */ }
+  del {text-decoration: line-through; /* 취소선 */}
+</style>
 ```
 <br>
 <br>
@@ -114,7 +123,9 @@ del {text-decoration: line-through; /* 취소선 */}
 - letter-spacing(글자 한글자 한글자 사이의 간격 지정), word-spacing(단어와 단어사이 간격을 지정)이 가능하다.
 
 ```css
-h1 {word-spacing: 10px;} /* 단어와 단어사이 띄우기 */
+<style>
+  h1 {word-spacing: 10px;} /* 단어와 단어사이 띄우기 */
+</style>
 ```
 <br>
 <br>
@@ -130,9 +141,11 @@ h1 {word-spacing: 10px;} /* 단어와 단어사이 띄우기 */
 
 
 ```css
+<style>
   .uppercase {text-transform: uppercase;}    /* 모두 대문자 */
   .lowercase {text-transform: lowercase;}      /* 모두 소문자 */
   .capitalize {text-transform: capitalize;}   /* 첫글자만 대문자 */ 
+</style>
 ```
 <br>
 <br>
