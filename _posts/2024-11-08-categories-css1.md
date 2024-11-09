@@ -24,7 +24,7 @@ last_modified_at: 2024-11-08
 
  :  색상 이름을 직접 입력하여 설정
 
-```html
+```css
  <head>
  <style> p.color-name{color: green;} </style>
  </head>
@@ -56,7 +56,7 @@ last_modified_at: 2024-11-08
 - rgba 속성 값의 네번째 자리에 알파 값이 위치한다.
 - 투명도는 0~1사이의 숫자로 설정이 가능하다.
 
-```html
+```css
  <head>
  <style> p.color-rgba{color: rgba(189,48,41,1);}</style>
  </head>
@@ -71,7 +71,7 @@ last_modified_at: 2024-11-08
 
 - hex란❓ : 16 진수를 뜻함, 색상을 6자리의 숫자로 표현한다.
 
-```html
+```css
  <head>
  <style>p.color-hexa{color: ;#f0aefe;}</style>
  </head>

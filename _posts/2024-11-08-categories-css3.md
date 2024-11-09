@@ -30,7 +30,7 @@ last_modified_at: 2024-11-09
 | Pixel (px) | 스타일 요소를 지정하는 기본적인 단위입니다. |
 
 
-```html
+```css
 <style>
      div.pixel{background-color: aquamarine; width: 400px; height: 200px;}
      div.pixel-child1{background-color: yellow; width: 50%;}
@@ -62,7 +62,7 @@ last_modified_at: 2024-11-09
 | percent (%) | 브라우저 화면 비율대로 나타내는 방법 |
 
 
-```html
+```css
 <style>
   div.percent{background-color: tomato; width: 100%; height: 200px;}
 </style>
@@ -90,7 +90,7 @@ last_modified_at: 2024-11-09
 
 - 적용예시
     
-    ```html
+    ```css
     <style>
        p.lorem{width: 500px;font-size: 1.2em;}
        strong{font-size: 2rem;}
