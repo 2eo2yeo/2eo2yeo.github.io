@@ -27,7 +27,6 @@ last_modified_at: 2024-11-07
 
 - 선택자의 종류 : id(#), class(.), 경로(부모/자식 관계..)
 
-
 ### **1. Inline Style**
 
 : HTML 태그에 직접 스타일을 적용하는 방법이다.
@@ -45,10 +44,10 @@ last_modified_at: 2024-11-07
 
 ```css
 <head>
-	<style> li.internal {color: green;} </style>	
+  <style> li.internal {color: green;} </style>	
 </head>
 <body>
-	<li class="internal">internal style</li>
+  <li class="internal">internal style</li>
 </body>
 ```
 
