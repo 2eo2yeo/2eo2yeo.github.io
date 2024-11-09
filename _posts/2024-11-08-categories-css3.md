@@ -47,7 +47,7 @@ last_modified_at: 2024-11-09
 
 - 적용 화면
 
-![결과화면1](/assets/images/posts_img/css/css_images3(1))
+![결과화면1](/assets/images/posts_img/css/css_images3_1.png)
 
 → 아쿠아마린 색상으로 너비 400px 높이 200px 적용 되었음
 
@@ -74,7 +74,7 @@ last_modified_at: 2024-11-09
 
 - 적용 화면
     
-    ![결과화면2](/assets/imgaes/posts_img/css/css_images3(2))
+    ![결과화면2](/assets/images/posts_img/css/css_images3_2.png)
     
     → 화면 비율의 100%로 적용된 모습 브라우저 창의 크기를 변동하게 되면 너비 또한 줄어드는 것을 알 수 있습니다. 
     
@@ -108,7 +108,7 @@ last_modified_at: 2024-11-09
 
 - 적용화면
     
-    ![결과화면3](/assets/imgaes/posts_img/css/css_images3(3))
+    ![결과화면3](/assets/images/posts_img/css/css_images3_3.png)
     
     → p 태그 안의 다른 글자는 기본 폰트사이즈의 1.2배 (1.2em ) 된 형태
     
