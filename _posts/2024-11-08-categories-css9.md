@@ -30,7 +30,7 @@ last_modified_at: 2024-11-09
 
 ```css
 <style>
-  {list-style-type: decimal;}
+  ol li {list-style-type: decimal;}
   ol li {list-style-type: '-';}
 </style>
 ```
