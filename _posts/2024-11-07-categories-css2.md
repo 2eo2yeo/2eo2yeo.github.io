@@ -33,7 +33,7 @@ last_modified_at: 2024-11-07
     
     : HTML 태그에 직접 스타일을 적용하는 방법이다.
     
-    ```html
+    ```CSS
     <li style="color: red ;">Inline style</li>
     ```
     
@@ -42,7 +42,7 @@ last_modified_at: 2024-11-07
     
     : Style 태그에 스타일을 적용하는 방법이다. 
     
-    ```html
+    ```CSS
     <head>
       <style> li.internal {color: green;} </style>	
     </head>
@@ -60,6 +60,6 @@ last_modified_at: 2024-11-07
     - <link>로 스타일 시트와 연동이 가능하다.
         - 예시 : syntax.css 파일과의 연동
     
-    ```html
+    ```CSS
       <link rel="stylesheet" type="text/css" herf="css/syntax.css"> </link>
     ```
