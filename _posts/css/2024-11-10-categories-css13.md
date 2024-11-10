@@ -26,7 +26,7 @@ CSS Box 모델은 웹 요소의 크기와 배치할 때 필수로 숙지해야 �
 
 모든 HTML 요소는 아래의 사각형의 박스 모델로 구성된다.
 
-![box모델설명]](/assets/images/posts_img/css/css_images13.png)
+![box모델설명](/assets/images/posts_img/css/css_images13.png)
 
 <br>
 <br>
