@@ -71,6 +71,6 @@ last_modified_at: 2024-11-10
 
 ### 적용화면
 
-![z-index결과](/assets/images/posts_img/css/css_images17.png)
+![z-index결과](/assets/images/posts_img/css/css_image17.png)
 <br>
 <br>
