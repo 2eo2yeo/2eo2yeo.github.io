@@ -77,7 +77,7 @@ Nodemon은 Node.js로 실행하는 파일을 자동으로 감시하는 도구이
 5. **nodemon 실행**
     
     ```bash
-    C:\path\to\your\project> nodemon project3.js
+    C:/path/to/your/project> nodemon project3.js
     ```
     
     - nodemon을 실행할 프로젝트 폴더로 이동 후 (`cd`) 실행할 파일을 찾아서 실행한다.
