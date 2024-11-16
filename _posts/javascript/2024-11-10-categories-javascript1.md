@@ -1,5 +1,5 @@
 ---
-title: "[JS] 자바스크립트란?"
+title: "[JavaScript] 자바스크립트란?"
 excerpt: "자바스크립트의 정의와 실행방법에 대해 알아보자"
 
 categories:

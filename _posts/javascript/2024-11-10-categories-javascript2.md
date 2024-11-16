@@ -1,5 +1,5 @@
 ---
-title: "[JS] Node.js 환경 구축 (with. VSCode)"
+title: "[JavaScript] Node.js 환경 구축 (with. VSCode)"
 excerpt: "node.js 설치와 nodemon 사용 방법"
 
 categories:

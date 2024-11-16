@@ -1,5 +1,5 @@
 ---
-title: "[JS] Variable - 변수명 선언 규칙, 변수 선언"
+title: "[JavaScript] Variable - 변수명 선언 규칙, 변수 선언"
 excerpt: "변수명 선언 규칙과 변수 선언 방법에 대해서 알아보자"
 
 categories:
