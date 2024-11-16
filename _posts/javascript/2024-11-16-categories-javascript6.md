@@ -1,5 +1,5 @@
 ---
-title: "[JS] 자료형 개념 (원시타입, 참조타입) "
+title: "[JavaScript] 자료형 개념 (원시타입, 참조타입) "
 excerpt: "자바스크립트 데이터의 유형을 구분해보자"
 
 categories:
