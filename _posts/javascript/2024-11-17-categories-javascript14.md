@@ -7,7 +7,7 @@ categories:
 tags:
   - [javascript, 자바스크립트기초]
 
-permalink: /categories/javascript/13
+permalink: /categories/javascript/14
 
 toc: true
 toc_sticky: true

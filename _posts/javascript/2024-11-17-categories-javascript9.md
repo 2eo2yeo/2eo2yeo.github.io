@@ -40,8 +40,6 @@ console.log(numberList[4]);  // 5가 출력
 
 ```
 
----
-
 <br>
 
 ### 객체(object)  `{ }`
