@@ -12,8 +12,8 @@ permalink: /categories/javascript/9
 toc: true
 toc_sticky: true
 
-date: 2024-11-16
-last_modified_at: 2024-11-16
+date: 2024-11-17
+last_modified_at: 2024-11-17
 ---
 
 ## 🦥 본문
