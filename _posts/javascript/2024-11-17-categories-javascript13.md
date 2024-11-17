@@ -1,6 +1,6 @@
 ---
-title: "[JavaScript] 연산자 - (산술, 모듈러, 접합, 증감, 대입, 비교)"
-excerpt: "연산자의 종류와 사용법에 대해 알아보자"
+title: "논리연산자 AND, OR, !, !! / 숏서킷"
+excerpt: "논리 연산자와 빠른 판단을 위한 숏서킷"
 
 categories:
   - javascript
