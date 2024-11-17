@@ -1,6 +1,6 @@
 ---
-title: "[JavaScript] 참조타입(Reference) - Array, Object의 개념"
-excerpt: "참조 타입 중 Array와 object의 기본적인 개념에 대해 알아보자"
+title: "[JavaScript] Typeof 연산자 - 데이터 타입의 확인"
+excerpt: "typeof로 현재 값의 데이터 타입을 확인해보자"
 
 categories:
   - javascript
