@@ -28,7 +28,6 @@ last_modified_at: 2024-11-29
 
 ---
 
-<br>
 
 ### 예제: `for` 문에서 `break` 사용
 
