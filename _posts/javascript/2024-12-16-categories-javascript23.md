@@ -1,6 +1,6 @@
 ---
-title: "[JavaScript] 함수 정의, 인수와 매개변수"
-excerpt: "함수를 정의하는 두 가지 방법과 인수, 매개변수에 대해서 알아보자"
+title: "[JavaScript] 함수의 기초, 함수 정의 방법"
+excerpt: "함수란? 함수 정의 방법"
 
 categories:
   - javascript
