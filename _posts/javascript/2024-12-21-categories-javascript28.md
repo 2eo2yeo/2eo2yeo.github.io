@@ -80,7 +80,7 @@ selectGugudan(7,9);
     - col의 기초값은 start이고, start부터 end까지 반복한다.
 - `{ output += ${col} ✖ ${row} = ${row * col}\t;}`
     - 안쪽  for문의 결과를 문자열로 만들어서 output 에 추가한다
-    - `output` 에는 `row`에 대해 `start` 단부터 `end` 단까지의 계산 결과가 포함됩니다.
+    - `output` 에는 `row`에 대해 `start` 단부터 `end` 단까지의 계산 결과가 포함된다.
 - `console.log(output);`
     - 각 줄(`row`)마다 누적된 계산 결과를 한줄씩 출력하기 위해서 바깥 for문 끝에 log를 찍음
 - 출력결과
